@@ -1,0 +1,79 @@
+Numpy:Numerical Python
+It is used to handle the large amount of data quickly with the help of arrays.
+
+#### Creating the array using numpy techniques.
+
+1. np.array(): It is used to create the array.
+--> import numpy as np
+    arr=np.array([1,2,3,4,5,6])
+    print(arr)
+    
+This will create the array not the list.Array is the collection of same type of datatypes while list can include any types of data.Same as list,array is also mutable.
+
+
+2.np.zeros(): It is used to create the array with only "0" as a element in it.
+--> arr=np.zeros(3)
+    print(arr)
+    This will create the 1D array of three elements as zero in it.The default value is float.
+-->output:array([0.,0.,0.])
+
+We can aslo chane the datatype and dimensions of the array to 2D.
+--> arr=np.zeros((2,2),dtype=int)
+    print(arr)
+    This will create the 2D array containing all 0 elements.
+-->Output:[[0 0]
+           [0 0]]
+
+3.np.ones():It's same as zeros function only difference is it prints 1 instead of 0.
+--> arr=np.ones((2,3))
+    print(arr)
+-->Output:[[ 1 1 1]
+           [ 1 1 1]]
+
+4.np.full():It is used to create the array of one constant element. It is also similar to the zeros and ones                     function.
+--> arr=np.full((2,2),7)
+    print(arr)
+-->Output:[[7 7]
+           [7 7]]
+
+5.np.arange():It is similar to range function in python. It generates the array from starting value to end-1.
+--> arr=np.arange(5)
+    print(arr)
+-->Output:[0,1,2,3,4]
+
+
+6.Identity Matrix;np.eye(): It is the matrix having 1 element is its leading diagonal.
+--> arr=np.eye(3)
+    arr
+-->Output: [[1 0 0]
+            [0 1 0]
+            [ 0 0 1]]
+  
+*****Non-square Identity Matrix******
+--> arr=np.eye(3,4)
+    arr
+--> Output:[[1 0 0 0]
+            [0 1 0 0]
+            [0 0 1 0]]
+
+*****Diagonal with K*****
+--> arr=np.eye(3,3,k=1) # k=1 means diagonal above the leading diagonal.if k=-1 then diagonal down the leading                             #                         diagonal.
+    print(arr)
+-->Output:[[0 1 0]
+           [0 0 1]
+           [0 0 0]]
+
+
+#### Shape and Size of an array.
+
+1.
+
+
+
+
+
+
+
+     
+
+
