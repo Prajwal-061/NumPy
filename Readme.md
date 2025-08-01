@@ -32,6 +32,8 @@ This repository contains my hands-on practice with NumPy, a powerful Python libr
 - `Aggregate_functions.ipynb`
 - `Indexing_Slicing.ipynb`
 - `Matrices.ipynb`
+- 'numpy_exercise.ipynb'
+- 'numpy_exercise_solution.ipynb'
 
 ---
 
